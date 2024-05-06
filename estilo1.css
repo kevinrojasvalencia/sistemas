@@ -1,0 +1,103 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: sans-serif;
+    background-color: #f0f0f0;
+}
+
+h1 {
+    color: #C2C4E1;
+    text-align: center;
+    font-size: 36px;
+    margin-top: 20px; /* Aumenta el espacio superior del título */
+}
+
+.form-register {
+    width: 95%;
+    max-width: 600px; /* Aumenta el ancho máximo del formulario */
+    margin: auto;
+    background: rgba(0, 0, 15, 0.4);
+    border-radius: 10px; /* Aumenta el radio de los bordes del formulario */
+    margin-top: 20px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.form-titulo {
+    background: 0, 0, 15, 0.4;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    font-weight: 100;
+    font-size: 30px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom: 5px solid #160AD3;
+}
+
+.contenedor-inputs {
+    padding: 10px 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.input-48 {
+    width: 48%;
+    margin-bottom: 20px; /* Aumenta la separación entre los campos */
+    padding: 15px;
+    font-size: 18px; /* Aumenta el tamaño de fuente de los campos */
+    border-radius: 5px; /* Aumenta el radio de los bordes de los campos */
+    border: 2px solid darkgray; /* Aumenta el ancho del borde de los campos */
+}
+
+.input-100 {
+    width: 100%;
+    margin-bottom: 20px; /* Aumenta la separación entre los campos */
+    padding: 15px;
+    font-size: 18px; /* Aumenta el tamaño de fuente de los campos */
+    border-radius: 5px; /* Aumenta el radio de los bordes de los campos */
+    border: 2px solid darkgray; /* Aumenta el ancho del borde de los campos */
+}
+
+.btn-enviar {
+    background: #160AD3;
+    color: #fff;
+    margin: auto;
+    padding: 12px 40px; /* Ajusta el espacio dentro del botón */
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.btn-enviar:active {
+    transform: scale(1.05);
+}
+
+.form__link {
+    width: 100%;
+    margin: 10px 0; /* Aumenta la separación entre el enlace y los campos */
+    text-align: center;
+    font-size: 16px; /* Aumenta el tamaño de fuente del enlace */
+}
+footer {
+    text-align: center;
+    margin-top: 20px;
+    padding: 10px;
+    background-color: rgba(0, 0, 15, 0.4);
+    color: white;
+}
+
+footer p {
+    margin-bottom: 0.5em;
+    font-size: 9px;
+}
+ul.navbar li {
+    margin: 0.5em 0;
+    padding: 0.5em;
+    border-top: 1em solid black;
+    background-color: rgba(0, 0, 15, 0.4);
+    text-align: left; /* Alineación a la izquierda para todos los elementos de la lista */
+}

@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="Flores1.css" />
+    <link rel="stylesheet" type="text/css" href="estilo1.css" />
+    <title>NASA</title>
+    <style type="text/css">
+        body {
+            padding-left: 15em;
+            font-family: Verdana, Arial, sans-serif;
+            font-size: 15px;
+            color: blanchedalmond;
+            text-align: center;
+            background-color: black;
+        }
+
+        div.cuerpo {
+            margin: 0 20px 20px;
+            border: 3px solid #5057C6;
+            max-width: fit-content;
+            background-color: rgba(0, 0, 15, 0.4);
+            display: inline-block;
+            text-align: left;
+        }
+
+        .container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .title-right {
+            margin-left: 20px;
+        }
+
+        .title-left {
+            text-align: left;
+        }
+
+        body {
+            color: lightsteelblue;
+        }
+        .custom-select {
+    width: 100px; /* Ajusta el ancho según tu preferencia */
+    padding: 4px; /* Ajusta el espaciado interior */
+    margin-left: 5px;
+    border: 2px solid #5057C6; /* Estilo de borde */
+    background-color: #f5f5f5; /* Color de fondo */
+    border-radius: 5px; /* Borde redondeado */
+    height: 30PX;
+    font-size: 14px; /* Tamaño de fuente */
+    color: #333; /* Color de texto */
+}
+
+        /* Agrega estilos adicionales aquí si es necesario */
+    </style>
+</head>
+
+<body>
+    <ul class="navbar">
+        <li><a href="Inicio.html">Sistema Solar</a></li>
+        <li><a href="paginaFlores2.html">Planetas</a></li>
+        <li><a href="PaginaFlores3.html">Información</a></li>
+        <li><a href="paginaFlores4.html">Misiones</a></li>
+    </ul>
+
+    <header>
+        <img src="nasa.png" width="130" height="115" alt="No se encontró imagen">
+        <h1 style="font-family: 'Arial', sans-serif; font-size: 36px; margin-top: 10px;">EL SISTEMA SOLAR</h1>
+        <h1 style="font-family: 'Arial', sans-serif; font-size: 15px; margin-top: -10px;">National Aeronautics and Space Administration</h1>
+    </header>
+
+    <div class="cuerpo">
+        <form action="registrar.php" method="post" class="form-register">
+            <h2 class="form-titulo">REGISTRO PARA VIAJE AL ESPACIO  </h2>
+            <div class="contenedor-inputs">
+
+
+                <div class="seccion">
+                    <!-- Etiqueta para "Planetas:" con margen izquierdo -->
+                    <label for="lang" style="margin-left: 35px;">Destino :</label>
+                    <select name="seccion" id="lang" class="custom-select" size="1">
+                        <!-- Ajusta el ancho y otros estilos según tus preferencias -->
+                        <option value="sol">Luna</option>
+                        <option value="luna">Tierra</option>
+                        <option value="tierra">Marte</option>
+                        <option value="marte">Jupiter</option>
+                        <option value="marte">saturno</option>
+                        <option value="marte">Mercurio</option>
+                        <option value="marte">Urano</option>
+                        <option value="marte">Pluton</option>
+                    </select>
+                </div> 
+
+                <input type="text" name="nombre" placeholder="Nombre Completo" class="input-48" required pattern="^[A-Za-záéíóúÁÉÍÓÚüÜñÑ\s]+$" title="Ingresa un nombre válido (solo letras y espacios)">
+                <input type="text" name "Edad" placeholder="Edad" class="input-48" required pattern="^[A-Za-záéíóúÁÉÍÓÚüÜñÑ\s]+$" title="Ingresa apellidos inválidos (solo letras y espacios)">
+                <input type="email" name="correo" placeholder="Correo" class="input-100" required pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$">
+                <input type="text" name="usuario" placeholder="Usuario" class="input-48" required>
+                <input type="password" name="clave" placeholder="Contraseña" class="input-48" required>
+                <input type="tel" name="telefono" placeholder="Telefono" class="input-100" required pattern="[0-9]{8,15}" title="Debes usar un formato de teléfono válido (8 a 15 dígitos numéricos)">
+
+                <h4>Sexo:</h4>
+                <p><input type="radio" name="sexo" value="masculino" required> Masculino</p>
+                <p><input type="radio" name="sexo" value="femenino" required> Femenino</p>
+                
+                <div class="seccion">
+                    <h4>Que otros temas te interesa:</h4>
+                    <p><input type="checkbox" name="Deportes" value="Si" /> Galaxias</p>
+                    <p><input type="checkbox" name="Cine" value="Si" /> Agujeros Negros</p>
+                    <p><input type="checkbox" name="Musica" value="Si" /> Nebulosas</p>
+                    <p><input type="checkbox" name="Noticias" value="Si" /> Noticias y Actualidad</p>
+                </div>
+                
+                <div class="vacio"></div>
+                <input type="submit" value="Registrar" class="btn-enviar">
+                
+            </div>
+                                
+        </form>
+        
+    </div>
+
+    <footer>
+        <p>Nombre Institucion: ITSA</p>
+        <p>Carrera: Sistemas Informáticos</p>
+        <p>Autor: Rojas Valencia Kevin</p>
+        <p>Contacto: 71452731</p>
+    </footer>
+</body>
+</html>

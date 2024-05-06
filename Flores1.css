@@ -1,0 +1,105 @@
+<style type="text/css">
+<p style="border: 1px dotted blue; color: red;">Texto con borde punteado y color rojo</p>
+body{padding-left: 15em;
+    font-family:Verdana,Arial,sans-serif;
+    font-size: 15px;
+    color: #735846;
+    text-align: justify;
+    background-color: #3d2e2a;
+    
+}
+
+
+ul.navbar{ <!--define la position: del menu de navegacion-->
+    list-style-type:none;
+    padding: 10px 20px;
+    margin: 0;
+    position: absolute;
+    top: 2em;
+    left: 2em;
+    width: 12em;
+ }
+body {
+  background-image: url("fon.jpg");
+  background-repeat: no-repeat;
+  
+}
+
+ul.navbar li{
+    margin: 0.5em 0;
+    padding: 0.5em;
+    border-top: 1em solid black;
+    background-color: rgba(0, 0, 15, 0.4);
+}
+h1{margin-left: 80px;
+    margin-top: 20px;
+    font-size: 180%;
+    color:#C2C4E1;
+}
+h2,h3{font-family: Gergoria,Times,serif;
+    font-size: 150%;
+    color: royalblue;
+    margin-top: 0;
+    margin-left: 30px;
+}
+h3{ color:royalblue;}
+p{line-height: 1.5em;
+    text-indent: 15px;
+    margin-left: 35px;
+}
+img {
+  float: left;
+  margin-right: 10px;
+  margin-left: 20px;
+}
+div.cuerpo{margin: 0 20px 20px;
+    border: 3px solid none;
+        
+}
+.azul{font-weight: bold;
+    color: #red;}
+
+footer {
+            text-align: center;
+            margin-top: 20px;
+            padding: 10px;
+            background-color: #f1f1f1;
+            position: relative;
+            left: 0;
+            width: 100%;
+            color: black;
+        }
+ header {
+            text-align: center;
+            margin-bottom: 20px;
+            padding: 10px;
+            background-color: #f1f1f1;
+        }
+.image-container {
+            background-color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        
+        .image-container img {
+            max-width: 100%;
+            height: auto;
+        }
+footer {
+            text-align: center;
+            margin-top: 20px;
+            padding: 10px;
+            background-color: rgba(0, 0, 15, 0.4);
+            color: white;
+        }
+
+footer p {
+        margin-bottom: 0.5em;
+        font-size: 9px;
+    }
+header {
+        background-color: rgba(0, 0, 15, 0.4);
+        /* Otros estilos del encabezado */
+    }
+
+</style>
